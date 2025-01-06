@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Fajr - AI Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Add Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">MF</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+                <button onclick="toggleLanguage()" class="lang-btn">RU/EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="content-en">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Muhammed Fajr</h1>
+                        <h2>Artificial Intelligence & Computer Science</h2>
+                        <p class="hero-description">Current AI Student | Future RTU MIREA Applicant (02.04.02)</p>
+                        <div class="location-experience">
+                            <div class="location-info">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Currently living and studying in Irkutsk, Russia. Originally from India, embracing the academic and cultural experience at IRNITU.</span>
+                            </div>
+                            
+                            <div class="cultural-highlights">
+                                <div class="cultural-item">
+                                    <i class="fas fa-language"></i>
+                                    <div class="cultural-content">
+                                        <h4>Russian Language</h4>
+                                        <p>Learning and practicing Russian daily, immersing in the language through academic studies and daily life interactions.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="cultural-item">
+                                    <i class="fas fa-landmark"></i>
+                                    <div class="cultural-content">
+                                        <h4>Cultural Integration</h4>
+                                        <p>Experiencing the rich Siberian culture in Irkutsk, participating in local traditions, and exploring the historic city near Lake Baikal.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="cultural-item">
+                                    <i class="fas fa-users"></i>
+                                    <div class="cultural-content">
+                                        <h4>Academic Community</h4>
+                                        <p>Part of IRNITU's diverse international student community, collaborating with Russian students and professors in AI research.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-badges">
+                            <span class="badge">
+                                <i class="fas fa-graduation-cap"></i>
+                                Graduating 2025
+                            </span>
+                            <span class="badge">
+                                <i class="fas fa-university"></i>
+                                IRNITU
+                            </span>
+                            <span class="badge">
+                                <i class="fas fa-globe"></i>
+                                Indian Student in Russia
+                            </span>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="photo.png" alt="Muhammed Fajr" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+            <div class="content-ru" style="display: none;">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Мухаммед Фаджр</h1>
+                        <h2>Искусственный Интеллект и Информатика</h2>
+                        <p class="hero-description">Студент ИИ | Будущий абитуриент РТУ МИРЭА (02.04.02)</p>
+                        <div class="location-experience">
+                            <div class="location-info">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>В настоящее время живу и учусь в Иркутске, Россия. Родом из Индии, получаю академический и культурный опыт в ИРНИТУ.</span>
+                            </div>
+                            
+                            <div class="cultural-highlights">
+                                <div class="cultural-item">
+                                    <i class="fas fa-language"></i>
+                                    <div class="cultural-content">
+                                        <h4>Русский язык</h4>
+                                        <p>Изучаю русский язык ежедневно, погружаясь в языковую среду через учебу и повседневное общение.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="cultural-item">
+                                    <i class="fas fa-landmark"></i>
+                                    <div class="cultural-content">
+                                        <h4>Культурная интеграция</h4>
+                                        <p>Познаю богатую сибирскую культуру Иркутска, участвую в местных традициях и изучаю исторический город у озера Байкал.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="cultural-item">
+                                    <i class="fas fa-users"></i>
+                                    <div class="cultural-content">
+                                        <h4>Академическое сообщество</h4>
+                                        <p>Являюсь частью международного студенческого сообщества ИРНИТУ, сотрудничаю с российскими студентами и преподавателями в исследованиях ИИ.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-badges">
+                            <span class="badge">
+                                <i class="fas fa-graduation-cap"></i>
+                                Выпуск 2025
+                            </span>
+                            <span class="badge">
+                                <i class="fas fa-university"></i>
+                                ИРНИТУ
+                            </span>
+                            <span class="badge">
+                                <i class="fas fa-globe"></i>
+                                Студент из Индии
+                            </span>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="photo.png" alt="Muhammed Fajr" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="content-en">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>Currently pursuing Artificial Intelligence & Computer Science at IRNITU (Irkutsk National Research Technical University), Russia. Passionate about AI, algorithms, and software development. Planning to continue my education in Fundamental Informatics and IT (02.04.02) at RTU MIREA, Moscow.</p>
+                    
+                    <!-- Add Core Competencies -->
+                    <div class="core-competencies">
+                        <h3><i class="fas fa-star"></i> Core Competencies</h3>
+                        <div class="competencies-list">
+                            <div class="competency">
+                                <i class="fas fa-users"></i>
+                                <span>Ability to relate with peoples of varied cultures</span>
+                            </div>
+                            <div class="competency">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>Positive attitude towards work</span>
+                            </div>
+                            <div class="competency">
+                                <i class="fas fa-crown"></i>
+                                <span>Leadership skills</span>
+                            </div>
+                            <div class="competency">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Willingness to accept responsibility</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Technical Skills -->
+                    <div class="stats">
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming</h3>
+                            <p>C++, Python</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-database"></i>
+                            <h3>Databases</h3>
+                            <p>SQL, NoSQL</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Development</h3>
+                            <p>Software Engineering</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-ru" style="display: none;">
+                <h2 class="section-title">Обо мне</h2>
+                <div class="about-content">
+                    <p>В настоящее время изучаю Искусственный Интеллект и Информатику в ИРНИТУ (Иркутский национальный исследовательский технический университет), Россия. Увлечен ИИ, алгоритмами и разработкой программного обеспечения. Планирую продолжить обучение по направлению Фундаментальная информатика и ИТ (02.04.02) в РТУ МИРЭА, Москва.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <i class="fas fa-code"></i>
+                            <h3>Программирование</h3>
+                            <p>C++, Python</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-database"></i>
+                            <h3>Базы данных</h3>
+                            <p>SQL, NoSQL</p>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Разработка</h3>
+                            <p>Программная инженерия</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="content-en">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Core Competencies</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fas fa-microchip"></i>
+                                <span>Algorithms & Data Structures</span>
+                                <div class="skill-level" data-level="90%"></div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code-branch"></i>
+                                <span>Software Development</span>
+                                <div class="skill-level" data-level="85%"></div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>Database Management</span>
+                                <div class="skill-level" data-level="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Technologies</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                                <div class="skill-level" data-level="90%"></div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C++</span>
+                                <div class="skill-level" data-level="85%"></div>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-server"></i>
+                                <span>Web Technologies</span>
+                                <div class="skill-level" data-level="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="content-en">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Supply and Demand Zone Analysis</h3>
+                            <p class="project-description">
+                                A comprehensive research project focused on developing an automated system for identifying and analyzing supply and demand zones in financial markets. The project combines technical analysis with machine learning to detect high-probability trading areas.
+                            </p>
+                            
+                            <div class="project-features">
+                                <h4><i class="fas fa-star"></i> Key Features</h4>
+                                <ul>
+                                    <li>Dynamic supply and demand zone detection using volume profile analysis</li>
+                                    <li>Advanced pivot point detection system</li>
+                                    <li>Real-time zone strength calculation</li>
+                                    <li>Customizable visualization with color-coded zones</li>
+                                    <li>Alert system for zone breakouts and new pivot formations</li>
+                                </ul>
+                            </div>
+
+                            <div class="implementation-details">
+                                <h4><i class="fas fa-cogs"></i> Technical Implementation</h4>
+                                <ul>
+                                    <li>Built with Pine Script v5 for TradingView platform</li>
+                                    <li>Volume profile-based zone detection algorithm</li>
+                                    <li>Dynamic look-back period adjustment</li>
+                                    <li>Optimized performance with max_bars_back handling</li>
+                                    <li>Custom visualization using TradingView's box and label functions</li>
+                                </ul>
+                            </div>
+
+                            <div class="code-preview">
+                                <div class="code-header">
+                                    <span class="code-title">supply_demand_zones.pine</span>
+                                    <button class="code-expand" onclick="toggleCode(this)">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                                <pre class="code-block"><code class="pinescript">
+//@version=5
+indicator("Muhammed Supply and Demand Zones", "📦Muhammed Supply/Demand zone", overlay=true, max_boxes_count=500, max_bars_back=4999)
+
+// Imports custom library for chart visualization
+import PineCoders/VisibleChart/4
+
+// Core functionality for zone detection
+ph = ta.pivothigh(plen, plen)
+pl = ta.pivotlow(plen, plen)
+
+// Dynamic zone calculation
+var pivotindex = 0
+if not na(ph) or not na(pl)
+    pivotindex := bar_index - plen
+
+len1 = dynamic ? bar_index - pivotindex : len
+var left = 0
+
+// Zone boundaries and volume arrays
+top_boundaries = array.new_float(res)
+bottom_boundaries = array.new_float(res)
+binlen = array.new_float(res)
+
+// Zone visualization and alerts
+for i = 0 to res - 1
+    iskey = (i == res - 1 ? true : binlen.get(i) < binlen.get(i + 1)*tolerance) and 
+            (i == 0 ? true : binlen.get(i) < binlen.get(i - 1)*tolerance)
+    
+    if iskey
+        boxes.push(box.new(box_left, box_top, box_right, box_bottom, 
+                          border_style=line.style_solid, 
+                          border_color=color.new(neut, 70),
+                          border_width=1, 
+                          bgcolor=color.new(neut, 80)))
+</code></pre>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>Pine Script v5</span>
+                                <span>TradingView</span>
+                                <span>Technical Analysis</span>
+                                <span>Volume Analysis</span>
+                            </div>
+
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <i class="fas fa-code-branch"></i>
+                                    <span>Implementation Time: 2 months</span>
+                                </div>
+                                <div class="metric">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Zone Accuracy: 85%</span>
+                                </div>
+                                <div class="metric">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Real-time Processing</span>
+                                </div>
+                            </div>
+
+                            <div class="project-details">
+                                <div class="project-info">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>2024</span>
+                                </div>
+                                <div class="project-info">
+                                    <i class="fas fa-university"></i>
+                                    <span>IRNITU Final Report</span>
+                                </div>
+                                <div class="project-info">
+                                    <i class="fas fa-user"></i>
+                                    <span>Individual Project</span>
+                                </div>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="report.pdf" download="Manufacturing_Practice_Report_Muhammed_Fajr.pdf" class="project-btn">
+                                    <i class="fas fa-file-pdf"></i> Report
+                                </a>
+                                <button class="project-btn code-btn" onclick="toggleCode(this)">
+                                    <i class="fas fa-code"></i> View Code
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-ru" style="display: none;">
+                <h2 class="section-title">Проекты</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Анализ Зон Спроса и Предложения</h3>
+                            <p class="project-description">
+                                Итоговый исследовательский проект, посвященный анализу рыночных зон спроса и предложения с использованием продвинутых алгоритмов и анализа данных
+                            </p>
+                            
+                            <div class="project-features">
+                                <h4><i class="fas fa-star"></i> Key Features</h4>
+                                <ul>
+                                    <li>Автоматическое обнаружение зон с использованием расширенных алгоритмов</li>
+                                    <li>Обработка реальных данных рынка</li>
+                                    <li>Распознавание шаблонов на основе машинного обучения</li>
+                                    <li>Интеграция технических индикаторов</li>
+                                    <li>Анализ производительности и тестирование</li>
+                                </ul>
+                            </div>
+
+                            <div class="implementation-details">
+                                <h4><i class="fas fa-cogs"></i> Implementation</h4>
+                                <ul>
+                                    <li>Создан на Python и NumPy для эффективных численных вычислений</li>
+                                    <li>Pandas для обработки данных и анализа</li>
+                                    <li>Scikit-learn для алгоритмов машинного обучения</li>
+                                    <li>Библиотека технического анализа (TA-Lib) для индикаторов</li>
+                                    <li>Matplotlib и Plotly для визуализации</li>
+                                </ul>
+                            </div>
+
+                            <div class="code-preview">
+                                <div class="code-header">
+                                    <span class="code-title">main.py</span>
+                                    <button class="code-expand" onclick="toggleCode(this)">
+                                        <i class="fas fa-expand"></i>
+                                    </button>
+                                </div>
+                                <pre class="code-block"><code class="python">
+import numpy as np
+import pandas as pd
+from sklearn.preprocessing import MinMaxScaler
+
+class SupplyDemandAnalyzer:
+    def __init__(self):
+        self.scaler = MinMaxScaler()
+        
+    def identify_zones(self, price_data, volume_data):
+        """Identify supply and demand zones based on price and volume data"""
+        # Normalize the data
+        normalized_price = self.scaler.fit_transform(price_data.reshape(-1, 1))
+        normalized_volume = self.scaler.fit_transform(volume_data.reshape(-1, 1))
+        
+        # Calculate zone strength
+        zone_strength = normalized_price * normalized_volume
+        
+        return {
+            'supply_zones': self._find_supply_zones(zone_strength),
+            'demand_zones': self._find_demand_zones(zone_strength)
+        }
+    
+    def _find_supply_zones(self, strength_data):
+        """Identify supply zones using strength data"""
+        # Implementation for supply zones
+        pass
+    
+    def _find_demand_zones(self, strength_data):
+        """Identify demand zones using strength data"""
+        # Implementation for demand zones
+        pass
+
+# Usage Example
+analyzer = SupplyDemandAnalyzer()
+results = analyzer.identify_zones(price_data, volume_data)</code></pre>
+                            </div>
+
+                            <div class="tech-stack">
+                                <span>Python</span>
+                                <span>Анализ данных</span>
+                                <span>Машинное обучение</span>
+                                <span>Технический анализ</span>
+                            </div>
+
+                            <div class="project-metrics">
+                                <div class="metric">
+                                    <i class="fas fa-code-branch"></i>
+                                    <span>Implementation Time: 3 months</span>
+                                </div>
+                                <div class="metric">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Accuracy Rate: 85%</span>
+                                </div>
+                                <div class="metric">
+                                    <i class="fas fa-database"></i>
+                                    <span>Data Points: 1M+</span>
+                                </div>
+                            </div>
+
+                            <div class="project-details">
+                                <div class="project-info">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>2024</span>
+                                </div>
+                                <div class="project-info">
+                                    <i class="fas fa-university"></i>
+                                    <span>ИРНИТУ Итоговый отчет</span>
+                                </div>
+                                <div class="project-info">
+                                    <i class="fas fa-user"></i>
+                                    <span>Индивидуальный проект</span>
+                                </div>
+                            </div>
+
+                            <div class="project-links">
+                                <a href="report.pdf" download="Manufacturing_Practice_Report_Muhammed_Fajr.pdf" class="project-btn">
+                                    <i class="fas fa-file-pdf"></i> Отчет
+                                </a>
+                                <button class="project-btn code-btn" onclick="toggleCode(this)">
+                                    <i class="fas fa-code"></i> View Code
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="education">
+            <div class="content-en">
+                <h2 class="section-title">Education Journey</h2>
+                <div class="education-timeline">
+                    <!-- Current Education -->
+                    <div class="education-block current">
+                        <div class="education-header">
+                            <div class="status-badge">
+                                <i class="fas fa-graduation-cap"></i>
+                                Current Study
+                            </div>
+                        </div>
+                        <div class="education-body">
+                            <div class="degree-info">
+                                <h3>Bachelor of Science</h3>
+                                <div class="degree-subtitle">Artificial Intelligence & Computer Science</div>
+                            </div>
+                            
+                            <div class="university-info">
+                                <i class="fas fa-university"></i>
+                                <span>Irkutsk National Research Technical University (IRNITU)</span>
+                            </div>
+                            
+                            <div class="education-stats">
+                                <div class="stat">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>Expected Graduation: 2025</span>
+                                </div>
+                                <div class="stat gpa">
+                                    <i class="fas fa-star"></i>
+                                    <span>GPA: 4.75</span>
+                                </div>
+                            </div>
+
+                            <div class="specialization">
+                                <h4><i class="fas fa-laptop-code"></i> Specialization</h4>
+                                <p>Artificial Intelligence and Machine Learning</p>
+                            </div>
+
+                            <div class="key-courses">
+                                <h4><i class="fas fa-book"></i> Key Courses</h4>
+                                <div class="course-list">
+                                    <span class="course">Algorithms</span>
+                                    <span class="course">Data Structures</span>
+                                    <span class="course">Machine Learning</span>
+                                    <span class="course">Artificial Intelligence</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Future Education -->
+                    <div class="education-block future">
+                        <div class="education-header">
+                            <div class="status-badge">
+                                <i class="fas fa-rocket"></i>
+                                Future Goal
+                            </div>
+                        </div>
+                        <div class="education-body">
+                            <div class="degree-info">
+                                <h3>Master's Degree</h3>
+                                <div class="degree-subtitle">Fundamental Informatics and IT (02.04.02)</div>
+                            </div>
+
+                            <div class="university-info">
+                                <i class="fas fa-university"></i>
+                                <span>RTU MIREA - Moscow, Russia</span>
+                            </div>
+
+                            <div class="education-stats">
+                                <div class="stat">
+                                    <i class="fas fa-calendar-alt"></i>
+                                    <span>2025 - 2027 (Planned)</span>
+                                </div>
+                            </div>
+
+                            <div class="specialization">
+                                <h4><i class="fas fa-bullseye"></i> Program Focus</h4>
+                                <p>Advanced Computer Science and Software Engineering</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-ru" style="display: none;">
+                <!-- Similar structure but in Russian -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p>&copy; 2024 Muhammed Fajr | IRNITU Student</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html> 
